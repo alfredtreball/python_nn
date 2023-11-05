@@ -33,3 +33,7 @@ nn = NeuralNetwork()
 
 # Entrada [0, 1]
 input_data = np.array([[0, 1]]) 
+
+output = nn.feedforward(input_data)
+
+print("Sortida desitjada per a [0, 1]:", output)
