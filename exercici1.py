@@ -32,4 +32,4 @@ class NeuralNetwork:
 nn = NeuralNetwork()
 
 # Entrada [0, 1]
-input_data = np.array([[0, 1]])  # Entrada que vols utilitzar per a la xarxa
+input_data = np.array([[0, 1]]) 
